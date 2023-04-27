@@ -30,7 +30,7 @@ class AppTest{
 //	}	
 	
 //	@Test
- //   //negative with wrong password
+//   //negative with wrong password
 //	public void testlogin3() throws Exception {
 		
 //		b1.dbconnection();
@@ -41,6 +41,7 @@ class AppTest{
 //	}
 	
 //	@Test
+//	//customer deposite
 //	public void testdeposit()throws Exception{
 		
 //		b1.dbconnection();
@@ -70,6 +71,7 @@ class AppTest{
 //	}
 	
     @Test
+    //change password of customer login
     public void testpwd() throws Exception {
     	
     	b1.dbconnection();
@@ -79,6 +81,7 @@ class AppTest{
     }
     
     @Test
+    //delete account
     public void testdel() throws Exception {
     
     b1.dbconnection();
@@ -88,6 +91,7 @@ class AppTest{
     }
     
     @Test
+    // new register for customer
     public void testregistercustomer() throws Exception {
     	
     	customer c1=new customer();
